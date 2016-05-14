@@ -14,26 +14,86 @@ header{
 	padding-bottom: 116px;
 }
 
-#name{
+	#name{
+		position: absolute;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+		color: white;
+		font-size: 50px;
+		background-color: #4aaaa5;
+		padding: 33px;
+		float: left;
+		left: 470px;
+	}
+
+	#links{
+		position: absolute;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		padding: 50px;
+		width: 400px;
+		left: 1030px;
+	}
+
+		#link_index, 
+		#link_portfolio, 
+		#link_contact, 
+		#line1, #line2{
+			width: 20%;
+			text-align: center;
+			float: left;
+
+		}
+
+#aboutme{
+	position: relative;
+	background-color: white;
+	width: 650px;
+	top: 136px;
+	left: 385px;
+}
+
+	#aboutmetitle{
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+		color: #4aaaa5;
+		font-size: 50px;
+		padding-left: 20px;
+	}
+
+	#image{
+		float: left;
+		padding: 20px;
+	}
+
+	#text{
+		padding: 20px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		line-height: 25px;
+	}
+
+#connect{
 	position: absolute;
-	background-color: #4aaaa5;
-	padding: 50px;
-	float: left;
+	background-color: white;
+	left: 1030px;
+	bottom: 634px;
+	padding: 20px;
 }
 
-#links{
-	position: absolute;
-	padding: 49px;
-	width: 400px;
-	left: 200px;
-}
+	#connecttext{
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+		color: #4aaaa5;
+		font-size: 30px;
+		padding-left: 20px;
+		text-align: center;
+	}
 
-#link_index, #link_portfolio, #link_contact{
-	width: 33.33%;
-	text-align: center;
-	float: left;
-
-}
+	#githubimg,
+	#linkedinimg,
+	#stackimg{
+		width: 33%;
+		float: left;
+	}
 
 #footer{
 	position: relative;
@@ -42,4 +102,50 @@ header{
 	padding: 40px;
 	text-align: center;
 	color: white;
+	top: 150px;
+}
+
+#contact{
+	position: relative;
+	background-color: white;
+	width: 650px;
+	top: 136px;
+	left: 385px;
+	padding: 20px;
+}
+
+	#contacttext{
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+		color: #4aaaa5;
+		font-size: 50px;
+		padding-left: 20px;
+	}
+
+	#nametext, 
+	#emailtext, 
+	#messagetext{
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+#portfolio{
+	position: relative;
+	background-color: white;
+	width: 650px;
+	top: 136px;
+	left: 385px;
+	padding: 20px;
+}
+
+#portftext{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: #4aaaa5;
+	font-size: 50px;
+	padding-left: 20px;
+}
+
+#Hangman, #RPG, #Trivia, #Widget, #RockPS{
+	position: relative;
+	float: left;
 }
